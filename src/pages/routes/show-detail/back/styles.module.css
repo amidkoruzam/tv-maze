@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    width: 396px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 4px;
+}
+
+.button {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    border-color: transparent;
+    background-color: transparent;
+    font-size: 12.8px;
+    line-height: 15px;
+    padding: 0 12px;
+}
+
+.button span {
+    display: inline-block;
+    margin-left: 11px;
+}
+
+@media (min-width: 900px) {
+    .container {
+        height: 50px;
+        width: 1018px;
+    }
+
+    .button {
+        font-size: 16px;
+        line-height: 18px;
+    }
+}

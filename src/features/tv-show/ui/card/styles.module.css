@@ -1,0 +1,39 @@
+.image {
+    width: 173px;
+    height: 243px;
+}
+
+.placeholder {
+    background-color: black;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.star {
+    height: 9px;
+    width: 9px;
+}
+
+@media (min-width: 900px) {
+    .image {
+        height: 305px;
+        width: 217px;
+    }
+
+    .title {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .star {
+        height: 12px;
+        width: 12px;
+    }
+}

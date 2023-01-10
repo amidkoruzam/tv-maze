@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 149px;
+    margin-bottom: 83px;
+}
+
+.search {
+    margin-left: auto;
+    margin-right: auto;
+}

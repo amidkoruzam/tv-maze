@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 50px;
+    width: 372px; /* TODO: change width to prop */
+    border: 2px solid transparent;
+}
+
+.container:focus-within {
+    border-color: #00A496;
+}
+
+.input {
+    display: inline-block;
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    border: none;
+    margin-right: 10px;
+    width: 100%;
+}
+
+.input::placeholder {
+    font-style: italic;
+}
+
+.input:focus-visible {
+    outline: none;
+}
+
+@media (min-width: 900px) { 
+    .container {
+        width: 630px;
+        height: 62px;
+        padding-left: 19px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-right: 6px;
+    }
+
+    .input {
+        font-size: 20px;
+        line-height: 23px;
+    }
+}
+
+/* TODO: what are the breakpoint supposed to be */
